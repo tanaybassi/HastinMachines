@@ -1,0 +1,2532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Hastin Machines — Premium electric industrial mobility solutions engineered to reduce labour, increase productivity, and optimize material movement across factories, warehouses, and industrial campuses.">
+<meta name="keywords" content="electric industrial carts, material handling, industrial mobility, warehouse transport, factory carts, electric transport trucks, India industrial equipment">
+<meta property="og:title" content="Hastin Machines — Engineering Industrial Mobility">
+<meta property="og:description" content="Premium electric industrial mobility solutions by Shree Balaji Engineering Works. 20+ years of engineering excellence.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hastinmachines.com">
+<title>Hastin Machines — Engineering Industrial Mobility</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #12355B;
+    --eng-blue: #1F4E79;
+    --green: #4B8F29;
+    --green-light: #6DC535;
+    --graphite: #2F3437;
+    --white: #FFFFFF;
+    --grey: #F4F6F8;
+    --sand: #E9E5DA;
+    --text-muted: #6B7280;
+    --text-dark: #1A1A2E;
+    --border: #E2E8F0;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    color: var(--graphite);
+    background: var(--white);
+    overflow-x: hidden;
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--navy);
+  }
+
+  img { max-width: 100%; display: block; }
+  a { text-decoration: none; color: inherit; }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+    height: 72px;
+    background: rgba(18, 53, 91, 0.97);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    transition: background 0.3s;
+  }
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .nav-logo-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .nav-brand {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: white;
+    letter-spacing: -0.3px;
+  }
+
+  .nav-brand span {
+    color: var(--green-light);
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    list-style: none;
+  }
+
+  .nav-links a {
+    color: rgba(255,255,255,0.8);
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover { color: var(--green-light); }
+
+  .nav-cta {
+    background: var(--green);
+    color: white !important;
+    padding: 10px 22px;
+    border-radius: 4px;
+    font-weight: 600 !important;
+    transition: background 0.2s !important;
+  }
+
+  .nav-cta:hover { background: var(--green-light) !important; color: var(--navy) !important; }
+
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 4px;
+  }
+
+  .hamburger span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: white;
+    border-radius: 2px;
+    transition: 0.3s;
+  }
+
+  /* ── HERO ── */
+  .hero {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #0A1F3A 0%, #12355B 40%, #1F4E79 70%, #0D2B4A 100%);
+    overflow: hidden;
+  }
+
+  .hero-grid-overlay {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  .hero-glow {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(75,143,41,0.15) 0%, transparent 70%);
+    top: -100px;
+    right: -100px;
+  }
+
+  .hero-glow-2 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(31,78,121,0.4) 0%, transparent 70%);
+    bottom: 50px;
+    left: 10%;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5vw;
+    padding-top: 72px;
+  }
+
+  .hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(75,143,41,0.15);
+    border: 1px solid rgba(109,197,53,0.3);
+    border-radius: 100px;
+    padding: 6px 16px;
+    margin-bottom: 32px;
+  }
+
+  .hero-eyebrow-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--green-light);
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(1.3); }
+  }
+
+  .hero-eyebrow span {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--green-light);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  .hero h1 {
+    font-size: clamp(40px, 6vw, 80px);
+    font-weight: 800;
+    color: white;
+    max-width: 780px;
+    letter-spacing: -2px;
+    line-height: 1.05;
+    margin-bottom: 28px;
+  }
+
+  .hero h1 em {
+    font-style: normal;
+    color: var(--green-light);
+  }
+
+  .hero-sub {
+    font-size: clamp(15px, 1.6vw, 18px);
+    color: rgba(255,255,255,0.65);
+    max-width: 560px;
+    line-height: 1.8;
+    margin-bottom: 48px;
+    font-weight: 300;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    background: var(--green);
+    color: white;
+    padding: 16px 36px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  .btn-primary:hover {
+    background: var(--green-light);
+    color: var(--navy);
+    transform: translateY(-1px);
+  }
+
+  .btn-outline {
+    background: transparent;
+    color: white;
+    padding: 16px 36px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border: 1px solid rgba(255,255,255,0.3);
+    cursor: pointer;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  .btn-outline:hover {
+    border-color: var(--green-light);
+    color: var(--green-light);
+    transform: translateY(-1px);
+  }
+
+  .hero-stats {
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    padding: 0 5vw;
+    display: flex;
+    gap: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .hero-stat {
+    flex: 1;
+    padding: 28px 32px;
+    border-left: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .hero-stat:first-child { border-left: none; padding-left: 0; }
+
+  .hero-stat-num {
+    font-family: 'Manrope', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+    line-height: 1;
+    margin-bottom: 6px;
+  }
+
+  .hero-stat-num span { color: var(--green-light); }
+
+  .hero-stat-label {
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+
+  .hero-scroll {
+    position: absolute;
+    bottom: 30px;
+    right: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+  }
+
+  .hero-scroll span {
+    font-size: 10px;
+    color: rgba(255,255,255,0.4);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+  }
+
+  .scroll-line {
+    width: 1px;
+    height: 40px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.4), transparent);
+    animation: scrollAnim 1.5s ease-in-out infinite;
+  }
+
+  @keyframes scrollAnim {
+    0% { transform: scaleY(0); transform-origin: top; }
+    50% { transform: scaleY(1); transform-origin: top; }
+    51% { transform: scaleY(1); transform-origin: bottom; }
+    100% { transform: scaleY(0); transform-origin: bottom; }
+  }
+
+  /* ── SECTIONS ── */
+  section { padding: 100px 5vw; }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .section-eyebrow {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--green);
+    margin-bottom: 16px;
+  }
+
+  .section-title {
+    font-size: clamp(28px, 3.5vw, 44px);
+    font-weight: 800;
+    color: var(--navy);
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+    line-height: 1.1;
+  }
+
+  .section-sub {
+    font-size: 17px;
+    color: var(--text-muted);
+    max-width: 560px;
+    line-height: 1.75;
+    font-weight: 400;
+    margin-bottom: 60px;
+  }
+
+  .divider {
+    width: 48px;
+    height: 3px;
+    background: var(--green);
+    border-radius: 2px;
+    margin-bottom: 20px;
+  }
+
+  /* ── TRUST BAR ── */
+  .trust-bar {
+    background: var(--grey);
+    padding: 28px 5vw;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .trust-bar-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+
+  .trust-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--navy);
+  }
+
+  .trust-icon {
+    width: 36px;
+    height: 36px;
+    background: var(--navy);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .trust-icon svg { width: 18px; height: 18px; fill: white; }
+
+  .trust-label {
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.3;
+  }
+
+  .trust-sub {
+    font-size: 11px;
+    color: var(--text-muted);
+    font-weight: 400;
+  }
+
+  /* ── PROBLEM ── */
+  .problem-section {
+    background: var(--navy);
+    color: white;
+  }
+
+  .problem-section .section-title { color: white; }
+  .problem-section .section-eyebrow { color: var(--green-light); }
+  .problem-section .divider { background: var(--green-light); }
+
+  .problem-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 60px;
+  }
+
+  .problem-item {
+    padding: 40px 36px;
+    background: rgba(255,255,255,0.02);
+    transition: background 0.3s;
+  }
+
+  .problem-item:hover { background: rgba(255,255,255,0.05); }
+
+  .problem-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .problem-item h4 {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .problem-item p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.7;
+  }
+
+  /* ── PRODUCTS ── */
+  .products-section { background: var(--white); }
+
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .product-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+  .product-card:hover {
+    border-color: var(--navy);
+    transform: translateY(-4px);
+    box-shadow: 0 20px 60px rgba(18,53,91,0.12);
+  }
+
+  .product-img {
+    height: 220px;
+    background: linear-gradient(135deg, var(--grey) 0%, var(--sand) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .product-img-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-illustration {
+    opacity: 0.15;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-tag {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: var(--green);
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 3px;
+  }
+
+  .product-tag.coming { background: var(--navy); }
+
+  .product-body {
+    padding: 28px;
+  }
+
+  .product-body h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 8px;
+  }
+
+  .product-body p {
+    font-size: 14px;
+    color: var(--text-muted);
+    line-height: 1.65;
+    margin-bottom: 20px;
+  }
+
+  .product-specs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 24px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+  }
+
+  .spec-item { display: flex; flex-direction: column; gap: 2px; }
+  .spec-label { font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.8px; font-weight: 600; }
+  .spec-value { font-size: 14px; font-weight: 700; color: var(--navy); font-family: 'Manrope', sans-serif; }
+
+  .product-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--green);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    transition: gap 0.2s;
+  }
+
+  .product-link:hover { gap: 10px; }
+
+  /* ── PRODUCT HERO CARDS (3-wheel, 4-wheel) ── */
+  .product-cart-img {
+    width: 160px;
+    height: 120px;
+    position: relative;
+  }
+
+  /* ── WHY HASTIN ── */
+  .why-section { background: var(--grey); }
+
+  .why-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .why-features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .why-feature { }
+
+  .why-feature-num {
+    font-family: 'Manrope', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--sand);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .why-feature h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 8px;
+  }
+
+  .why-feature p {
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.65;
+  }
+
+  .why-visual {
+    background: var(--navy);
+    border-radius: 12px;
+    padding: 48px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .why-visual-bg {
+    position: absolute;
+    inset: 0;
+    background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 30px 30px;
+  }
+
+  .why-visual-content { position: relative; z-index: 1; }
+
+  .why-visual h3 {
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+
+  .why-visual-tagline {
+    color: var(--green-light);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  }
+
+  .why-metrics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .why-metric {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+  .why-metric-num {
+    font-family: 'Manrope', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--green-light);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .why-metric-label {
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.4;
+  }
+
+  /* ── INDUSTRIES ── */
+  .industries-section { background: var(--white); }
+
+  .industries-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  .industry-card {
+    padding: 28px 24px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+  .industry-card:hover {
+    border-color: var(--navy);
+    background: var(--navy);
+  }
+
+  .industry-card:hover .industry-name { color: white; }
+  .industry-card:hover .industry-desc { color: rgba(255,255,255,0.6); }
+  .industry-card:hover .industry-icon { background: rgba(255,255,255,0.1); }
+  .industry-card:hover .industry-icon svg { fill: var(--green-light); }
+
+  .industry-icon {
+    width: 44px;
+    height: 44px;
+    background: var(--grey);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    transition: background 0.3s;
+  }
+
+  .industry-icon svg { width: 22px; height: 22px; fill: var(--navy); transition: fill 0.3s; }
+
+  .industry-name {
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 6px;
+    transition: color 0.3s;
+  }
+
+  .industry-desc {
+    font-size: 12px;
+    color: var(--text-muted);
+    line-height: 1.6;
+    transition: color 0.3s;
+  }
+
+  /* ── ROI CALCULATOR ── */
+  .roi-section { background: var(--navy); }
+
+  .roi-section .section-title { color: white; }
+  .roi-section .section-eyebrow { color: var(--green-light); }
+  .roi-section .section-sub { color: rgba(255,255,255,0.6); }
+  .roi-section .divider { background: var(--green-light); }
+
+  .roi-calculator {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    padding: 48px;
+  }
+
+  .roi-inputs { }
+
+  .roi-input-group {
+    margin-bottom: 28px;
+  }
+
+  .roi-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.6);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+
+  .roi-input {
+    width: 100%;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 6px;
+    padding: 14px 18px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .roi-input:focus { border-color: var(--green-light); }
+
+  .roi-slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 2px;
+    outline: none;
+    margin-top: 12px;
+  }
+
+  .roi-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--green-light);
+    cursor: pointer;
+  }
+
+  .roi-results {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .roi-result-card {
+    background: rgba(75,143,41,0.12);
+    border: 1px solid rgba(109,197,53,0.2);
+    border-radius: 8px;
+    padding: 24px;
+  }
+
+  .roi-result-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.5);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+
+  .roi-result-value {
+    font-family: 'Manrope', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--green-light);
+    line-height: 1;
+  }
+
+  .roi-result-value.dark { color: white; font-size: 24px; }
+
+  /* ── ABOUT ── */
+  .about-section { background: var(--white); }
+
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: start;
+  }
+
+  .about-text p {
+    font-size: 16px;
+    color: var(--text-muted);
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+
+  .about-badges {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 32px;
+  }
+
+  .badge {
+    background: var(--grey);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--navy);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  .about-milestones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .milestone {
+    padding: 28px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--grey);
+  }
+
+  .milestone-num {
+    font-family: 'Manrope', sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    color: var(--navy);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .milestone-num span { color: var(--green); }
+
+  .milestone-label {
+    font-size: 13px;
+    color: var(--text-muted);
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  /* ── SPECS ── */
+  .specs-section { background: var(--grey); }
+
+  .specs-tabs {
+    display: flex;
+    gap: 0;
+    border-bottom: 2px solid var(--border);
+    margin-bottom: 48px;
+    overflow-x: auto;
+  }
+
+  .specs-tab {
+    padding: 14px 28px;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    white-space: nowrap;
+    transition: all 0.2s;
+  }
+
+  .specs-tab.active {
+    color: var(--navy);
+    border-bottom-color: var(--navy);
+  }
+
+  .specs-tab:hover { color: var(--navy); }
+
+  .specs-content { display: none; }
+  .specs-content.active { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+
+  .specs-table {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+
+  .specs-table-title {
+    background: var(--navy);
+    color: white;
+    padding: 16px 24px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+
+  .spec-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .spec-row:last-child { border-bottom: none; }
+
+  .spec-row > div {
+    padding: 14px 24px;
+    font-size: 14px;
+  }
+
+  .spec-row > div:first-child {
+    color: var(--text-muted);
+    font-weight: 500;
+    border-right: 1px solid var(--border);
+  }
+
+  .spec-row > div:last-child {
+    font-weight: 700;
+    color: var(--navy);
+    font-family: 'Manrope', sans-serif;
+  }
+
+  .specs-diagram {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .specs-diagram-label {
+    font-size: 12px;
+    color: var(--text-muted);
+    text-align: center;
+    font-weight: 500;
+  }
+
+  /* ── GALLERY ── */
+  .gallery-section { background: var(--white); padding: 80px 5vw; }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px 200px;
+    gap: 12px;
+    margin-top: 48px;
+  }
+
+  .gallery-cell {
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    background: var(--grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gallery-cell.large {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .gallery-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: var(--text-muted);
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--grey) 0%, var(--sand) 100%);
+  }
+
+  .gallery-placeholder svg { width: 28px; height: 28px; opacity: 0.3; fill: var(--navy); }
+
+  .gallery-placeholder span {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.5;
+  }
+
+  /* ── CONTACT ── */
+  .contact-section { background: var(--grey); }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 60px;
+    align-items: start;
+  }
+
+  .contact-info h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+
+  .contact-info p {
+    color: var(--text-muted);
+    font-size: 15px;
+    margin-bottom: 36px;
+    line-height: 1.7;
+  }
+
+  .contact-detail {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 20px;
+  }
+
+  .contact-detail-icon {
+    width: 40px;
+    height: 40px;
+    background: var(--navy);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .contact-detail-icon svg { width: 18px; height: 18px; fill: white; }
+
+  .contact-detail-text { }
+  .contact-detail-text strong { display: block; font-size: 13px; color: var(--navy); font-weight: 700; margin-bottom: 2px; }
+  .contact-detail-text span { font-size: 14px; color: var(--text-muted); }
+
+  .contact-form {
+    background: white;
+    border-radius: 12px;
+    padding: 40px;
+    border: 1px solid var(--border);
+  }
+
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .form-group.full { grid-column: span 2; }
+
+  .form-group label {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--navy);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 13px 16px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: var(--graphite);
+    outline: none;
+    transition: border-color 0.2s;
+    background: white;
+  }
+
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus { border-color: var(--navy); }
+
+  .form-group textarea { resize: vertical; min-height: 100px; }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--graphite);
+    color: white;
+    padding: 64px 5vw 32px;
+  }
+
+  .footer-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 48px;
+    margin-bottom: 48px;
+  }
+
+  .footer-brand-name {
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 4px;
+  }
+
+  .footer-brand-name span { color: var(--green-light); }
+
+  .footer-tagline {
+    font-size: 12px;
+    color: rgba(255,255,255,0.4);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .footer-parent {
+    font-size: 13px;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.6;
+    margin-bottom: 24px;
+  }
+
+  .footer-parent strong { color: rgba(255,255,255,0.8); }
+
+  .footer-col h5 {
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+  }
+
+  .footer-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-links a {
+    font-size: 14px;
+    color: rgba(255,255,255,0.5);
+    transition: color 0.2s;
+  }
+
+  .footer-links a:hover { color: var(--green-light); }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .footer-legal {
+    font-size: 12px;
+    color: rgba(255,255,255,0.3);
+  }
+
+  .footer-socials {
+    display: flex;
+    gap: 12px;
+  }
+
+  .social-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .social-btn:hover { background: var(--green); }
+  .social-btn svg { width: 16px; height: 16px; fill: white; }
+
+  /* ── BANNER ── */
+  .cta-banner {
+    background: linear-gradient(135deg, var(--green) 0%, #3a7020 100%);
+    padding: 72px 5vw;
+    text-align: center;
+  }
+
+  .cta-banner h2 {
+    color: white;
+    font-size: clamp(24px, 3vw, 40px);
+    font-weight: 800;
+    margin-bottom: 16px;
+    letter-spacing: -0.5px;
+  }
+
+  .cta-banner p {
+    color: rgba(255,255,255,0.8);
+    font-size: 17px;
+    margin-bottom: 40px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+  }
+
+  .cta-banner-actions {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn-white {
+    background: white;
+    color: var(--green);
+    padding: 16px 36px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    font-family: 'Manrope', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .btn-white:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
+
+  .btn-outline-white {
+    background: transparent;
+    color: white;
+    padding: 16px 36px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    font-family: 'Manrope', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 2px solid rgba(255,255,255,0.4);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .btn-outline-white:hover { border-color: white; transform: translateY(-2px); }
+
+  /* ── MOBILE ── */
+  @media (max-width: 900px) {
+    .nav-links { display: none; }
+    .hamburger { display: flex; }
+
+    .hero h1 { font-size: 36px; letter-spacing: -1px; }
+    .hero-stats { position: relative; bottom: auto; margin-top: 48px; flex-wrap: wrap; }
+    .hero-stat { flex: 1 1 45%; border-top: 1px solid rgba(255,255,255,0.1); padding: 20px 16px; border-left: none; }
+
+    .problem-grid { grid-template-columns: 1fr; }
+    .products-grid { grid-template-columns: 1fr; }
+    .why-grid { grid-template-columns: 1fr; gap: 40px; }
+    .why-features { grid-template-columns: 1fr 1fr; }
+    .industries-grid { grid-template-columns: repeat(2, 1fr); }
+    .roi-calculator { grid-template-columns: 1fr; padding: 28px; }
+    .about-grid { grid-template-columns: 1fr; gap: 40px; }
+    .about-milestones { grid-template-columns: 1fr 1fr; }
+    .specs-content.active { grid-template-columns: 1fr; }
+    .gallery-grid { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
+    .gallery-cell.large { grid-column: span 2; }
+    .contact-grid { grid-template-columns: 1fr; }
+    .footer-top { grid-template-columns: 1fr 1fr; }
+  }
+
+  @media (max-width: 600px) {
+    section { padding: 60px 5vw; }
+    .why-features { grid-template-columns: 1fr; }
+    .industries-grid { grid-template-columns: 1fr; }
+    .about-milestones { grid-template-columns: 1fr; }
+    .footer-top { grid-template-columns: 1fr; }
+    .form-grid { grid-template-columns: 1fr; }
+    .form-group.full { grid-column: span 1; }
+    .footer-bottom { flex-direction: column; text-align: center; }
+  }
+
+  /* ── ANIMATIONS ── */
+  .fade-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+
+  .fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .whatsapp-fab {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #25D366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+
+  .whatsapp-fab:hover { transform: scale(1.08); }
+  .whatsapp-fab svg { width: 28px; height: 28px; fill: white; }
+
+  .product-svg-cart {
+    width: 200px;
+    height: 150px;
+  }
+</style>
+</head>
+<body>
+
+<!-- WhatsApp FAB -->
+<a href="https://wa.me/919569160009" class="whatsapp-fab" target="_blank" title="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">
+    <svg class="nav-logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="20" cy="20" r="20" fill="#1F4E79"/>
+      <ellipse cx="21" cy="22" rx="12" ry="11" fill="#12355B"/>
+      <path d="M26 16 Q32 11 31 8 Q28 6 27 10 Q25 13 23 15" fill="none" stroke="#1F4E79" stroke-width="3" stroke-linecap="round"/>
+      <polygon points="18,12 15,22 19,21 16,30 26,17 21,18" fill="#6DC535"/>
+    </svg>
+    <div>
+      <div class="nav-brand">HASTIN <span>MACHINES</span></div>
+    </div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#products">Products</a></li>
+    <li><a href="#industries">Industries</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#specs">Specs</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact" class="nav-cta">Request Quote</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-grid-overlay"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-glow-2"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <div class="hero-eyebrow-dot"></div>
+      <span>Now Launching in India</span>
+    </div>
+    <h1>Engineering<br><em>Industrial</em><br>Mobility.</h1>
+    <p class="hero-sub">Premium electric industrial mobility solutions built to reduce labour dependency, increase throughput, and optimize material movement across factories, warehouses, and industrial campuses.</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary">
+        Book a Demo
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a href="#products" class="btn-outline">View Products</a>
+    </div>
+
+    <div class="hero-stats" style="position:relative;bottom:auto;margin-top:80px;padding:0;">
+      <div class="hero-stat">
+        <div class="hero-stat-num">20<span>+</span></div>
+        <div class="hero-stat-label">Years Engineering</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">1800<span>W</span></div>
+        <div class="hero-stat-label">Pure Copper Motor</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">3<span>T</span></div>
+        <div class="hero-stat-label">Max Payload</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">6<span>+</span></div>
+        <div class="hero-stat-label">Models Available</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-bar-inner">
+    <div class="trust-item">
+      <div class="trust-icon"><svg viewBox="0 0 24 24"><path d="M12 2L2 7v10l10 5 10-5V7L12 2zm0 2.18L20 8.5v7L12 19.82 4 15.5v-7L12 4.18z"/></svg></div>
+      <div>
+        <div class="trust-label">Backed by SBEW</div>
+        <div class="trust-sub">20+ years precision engineering</div>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon"><svg viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div>
+      <div>
+        <div class="trust-label">1800W Pure Copper Motor</div>
+        <div class="trust-sub">Industrial-grade performance</div>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon"><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg></div>
+      <div>
+        <div class="trust-label">Made in India</div>
+        <div class="trust-sub">Assembled & serviced locally</div>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon"><svg viewBox="0 0 24 24"><path d="M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8zM6 1v3M10 1v3M14 1v3"/></svg></div>
+      <div>
+        <div class="trust-label">After-Sales Support</div>
+        <div class="trust-sub">Spares, service & warranty</div>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2M9 11a4 4 0 100-8 4 4 0 000 8zM23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></div>
+      <div>
+        <div class="trust-label">Pan-India Delivery</div>
+        <div class="trust-sub">Factory-direct pricing</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PROBLEM SECTION -->
+<section class="problem-section">
+  <div class="container">
+    <div class="divider"></div>
+    <div class="section-eyebrow">The Industry Problem</div>
+    <h2 class="section-title">Manual material handling<br>is costing your business.</h2>
+    <p class="section-sub" style="color:rgba(255,255,255,0.55)">Every day your workers push heavy loads manually, your operations lose time, money, and capacity. We fix that.</p>
+    <div class="problem-grid">
+      <div class="problem-item fade-up">
+        <div class="problem-icon">⚠️</div>
+        <h4>Labour Shortages</h4>
+        <p>Finding and retaining skilled workers for material movement is increasingly difficult and expensive across Indian industries.</p>
+      </div>
+      <div class="problem-item fade-up">
+        <div class="problem-icon">😓</div>
+        <h4>Worker Fatigue & Injuries</h4>
+        <p>Manual load handling leads to musculoskeletal injuries, fatigue, absenteeism, and reduced productivity over time.</p>
+      </div>
+      <div class="problem-item fade-up">
+        <div class="problem-icon">🐢</div>
+        <h4>Slow Material Flow</h4>
+        <p>Delays in moving materials between stations create bottlenecks that stall production lines and increase lead times.</p>
+      </div>
+      <div class="problem-item fade-up">
+        <div class="problem-icon">💸</div>
+        <h4>Rising Labour Costs</h4>
+        <p>Manual transport requires multiple workers per shift. Labour costs compound annually while productivity stays flat.</p>
+      </div>
+      <div class="problem-item fade-up">
+        <div class="problem-icon">⏱️</div>
+        <h4>Unplanned Downtime</h4>
+        <p>Material delays stop machines. Production halts while equipment waits for parts, components, or finished goods to arrive.</p>
+      </div>
+      <div class="problem-item fade-up">
+        <div class="problem-icon">📉</div>
+        <h4>Workflow Inefficiency</h4>
+        <p>Without structured material movement, factory floors run on informal systems that are impossible to measure or improve.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products-section" id="products">
+  <div class="container">
+    <div class="divider"></div>
+    <div class="section-eyebrow">Product Line</div>
+    <h2 class="section-title">Electric Industrial Carts</h2>
+    <p class="section-sub">Purpose-engineered for the demands of Indian industry. Every model is powered by a 1800W pure copper motor, designed for all-day operation.</p>
+    <div class="products-grid">
+
+      <!-- Product 1 -->
+      <div class="product-card fade-up">
+        <div class="product-img">
+          <div class="product-illustration">
+            <svg viewBox="0 0 200 150" width="200" height="150">
+              <rect x="20" y="80" width="160" height="40" rx="4" fill="#12355B"/>
+              <rect x="30" y="60" width="140" height="25" rx="3" fill="#1F4E79"/>
+              <circle cx="45" cy="125" r="15" fill="#2F3437"/>
+              <circle cx="45" cy="125" r="8" fill="#6B7280"/>
+              <circle cx="155" cy="125" r="15" fill="#2F3437"/>
+              <circle cx="155" cy="125" r="8" fill="#6B7280"/>
+              <rect x="85" y="40" width="8" height="22" rx="2" fill="#4B8F29"/>
+              <path d="M60 60 Q89 30 120 60" fill="none" stroke="#4B8F29" stroke-width="3"/>
+            </svg>
+          </div>
+          <div class="product-tag">Available Now</div>
+        </div>
+        <div class="product-body">
+          <h3>Three-Wheel Flatbed Cart</h3>
+          <p>Compact and highly manoeuvrable. Ideal for narrow aisles, confined production floors, and tight turning radius applications.</p>
+          <div class="product-specs">
+            <div class="spec-item">
+              <span class="spec-label">Platform</span>
+              <span class="spec-value">140 × 75 cm</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Motor</span>
+              <span class="spec-value">1800W Copper</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Fence</span>
+              <span class="spec-value">30 cm Extendable</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Drive</span>
+              <span class="spec-value">Electric</span>
+            </div>
+          </div>
+          <a href="#contact" class="product-link">Request Quote →</a>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card fade-up">
+        <div class="product-img">
+          <div class="product-illustration">
+            <svg viewBox="0 0 200 150" width="200" height="150">
+              <rect x="15" y="75" width="170" height="45" rx="4" fill="#12355B"/>
+              <rect x="25" y="55" width="150" height="24" rx="3" fill="#1F4E79"/>
+              <circle cx="40" cy="126" r="16" fill="#2F3437"/>
+              <circle cx="40" cy="126" r="8" fill="#6B7280"/>
+              <circle cx="160" cy="126" r="16" fill="#2F3437"/>
+              <circle cx="160" cy="126" r="8" fill="#6B7280"/>
+              <circle cx="40" cy="80" r="8" fill="#2F3437"/>
+              <circle cx="160" cy="80" r="8" fill="#2F3437"/>
+              <rect x="82" y="36" width="8" height="20" rx="2" fill="#4B8F29"/>
+            </svg>
+          </div>
+          <div class="product-tag">Available Now</div>
+        </div>
+        <div class="product-body">
+          <h3>Four-Wheel Flatbed 150cm</h3>
+          <p>Balanced 4-wheel stability with a mid-size platform. The workhorse cart for standard factory floor and warehouse operations.</p>
+          <div class="product-specs">
+            <div class="spec-item">
+              <span class="spec-label">Platform</span>
+              <span class="spec-value">150 × 80 cm</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Motor</span>
+              <span class="spec-value">1800W Copper</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Fence</span>
+              <span class="spec-value">30 cm</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Drive</span>
+              <span class="spec-value">Electric</span>
+            </div>
+          </div>
+          <a href="#contact" class="product-link">Request Quote →</a>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card fade-up">
+        <div class="product-img">
+          <div class="product-illustration">
+            <svg viewBox="0 0 200 150" width="200" height="150">
+              <rect x="10" y="72" width="180" height="50" rx="4" fill="#12355B"/>
+              <rect x="20" y="48" width="160" height="27" rx="3" fill="#1F4E79"/>
+              <circle cx="38" cy="128" r="16" fill="#2F3437"/>
+              <circle cx="38" cy="128" r="8" fill="#6B7280"/>
+              <circle cx="162" cy="128" r="16" fill="#2F3437"/>
+              <circle cx="162" cy="128" r="8" fill="#6B7280"/>
+              <circle cx="38" cy="78" r="8" fill="#2F3437"/>
+              <circle cx="162" cy="78" r="8" fill="#2F3437"/>
+            </svg>
+          </div>
+          <div class="product-tag">Available Now</div>
+        </div>
+        <div class="product-body">
+          <h3>Four-Wheel Flatbed 200cm</h3>
+          <p>Our largest flatbed. Built for bulk material movement, long loads, and high-volume factory logistics where capacity is critical.</p>
+          <div class="product-specs">
+            <div class="spec-item">
+              <span class="spec-label">Platform</span>
+              <span class="spec-value">200 × 100 cm</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Motor</span>
+              <span class="spec-value">1800W Copper</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Fence</span>
+              <span class="spec-value">30 cm</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Drive</span>
+              <span class="spec-value">Electric</span>
+            </div>
+          </div>
+          <a href="#contact" class="product-link">Request Quote →</a>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card fade-up">
+        <div class="product-img">
+          <div class="product-illustration">
+            <svg viewBox="0 0 200 150" width="200" height="150">
+              <rect x="30" y="65" width="140" height="60" rx="4" fill="#12355B"/>
+              <rect x="60" y="45" width="80" height="24" rx="3" fill="#1F4E79"/>
+              <rect x="75" y="30" width="50" height="18" rx="3" fill="#4B8F29"/>
+              <circle cx="55" cy="130" r="16" fill="#2F3437"/>
+              <circle cx="55" cy="130" r="8" fill="#6B7280"/>
+              <circle cx="145" cy="130" r="16" fill="#2F3437"/>
+              <circle cx="145" cy="130" r="8" fill="#6B7280"/>
+            </svg>
+          </div>
+          <div class="product-tag">Available Now</div>
+        </div>
+        <div class="product-body">
+          <h3>Standing Bucket Truck 26#</h3>
+          <p>Standing-mounted operation with deep bucket body. Designed for transporting loose materials, components, and bulk goods.</p>
+          <div class="product-specs">
+            <div class="spec-item">
+              <span class="spec-label">Platform</span>
+              <span class="spec-value">105 × 70 cm</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Motor</span>
+              <span class="spec-value">1800W Copper</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Body</span>
+              <span class="spec-value">3.0mm Steel</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Drive</span>
+              <span class="spec-value">Electric</span>
+            </div>
+          </div>
+          <a href="#contact" class="product-link">Request Quote →</a>
+        </div>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="product-card fade-up">
+        <div class="product-img">
+          <div class="product-illustration">
+            <svg viewBox="0 0 200 150" width="200" height="150">
+              <rect x="20" y="90" width="160" height="35" rx="3" fill="#1F4E79"/>
+              <rect x="50" y="110" width="100" height="10" rx="2" fill="#12355B"/>
+              <rect x="30" y="50" width="10" height="50" rx="2" fill="#12355B"/>
+              <rect x="160" y="50" width="10" height="50" rx="2" fill="#12355B"/>
+              <rect x="15" y="45" width="170" height="10" rx="2" fill="#4B8F29"/>
+              <circle cx="55" cy="130" r="14" fill="#2F3437"/>
+              <circle cx="55" cy="130" r="7" fill="#6B7280"/>
+              <circle cx="145" cy="130" r="14" fill="#2F3437"/>
+              <circle cx="145" cy="130" r="7" fill="#6B7280"/>
+            </svg>
+          </div>
+          <div class="product-tag">Available Now</div>
+        </div>
+        <div class="product-body">
+          <h3>Electric Pallet Truck — SK Classic</h3>
+          <p>Fully automatic 3-tonne electric pallet truck. Built for heavy pallet movement in warehouses, cold stores, and dispatch areas.</p>
+          <div class="product-specs">
+            <div class="spec-item">
+              <span class="spec-label">Capacity</span>
+              <span class="spec-value">3 Tonne</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Motor</span>
+              <span class="spec-value">1500W Copper</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Operation</span>
+              <span class="spec-value">Fully Automatic</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Model</span>
+              <span class="spec-value">SK Classic</span>
+            </div>
+          </div>
+          <a href="#contact" class="product-link">Request Quote →</a>
+        </div>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="product-card fade-up">
+        <div class="product-img">
+          <div class="product-illustration">
+            <svg viewBox="0 0 200 150" width="200" height="150">
+              <rect x="40" y="40" width="30" height="80" rx="3" fill="#12355B"/>
+              <rect x="70" y="70" width="90" height="15" rx="2" fill="#1F4E79"/>
+              <rect x="70" y="85" width="90" height="15" rx="3" fill="#4B8F29"/>
+              <path d="M40 50 Q60 30 80 50" fill="none" stroke="#1F4E79" stroke-width="4"/>
+              <circle cx="85" cy="130" r="14" fill="#2F3437"/>
+              <circle cx="85" cy="130" r="7" fill="#6B7280"/>
+              <circle cx="115" cy="130" r="14" fill="#2F3437"/>
+              <circle cx="115" cy="130" r="7" fill="#6B7280"/>
+            </svg>
+          </div>
+          <div class="product-tag">Available Now</div>
+        </div>
+        <div class="product-body">
+          <h3>Oil Drum Dumping Machine</h3>
+          <p>Manual hydraulic drum handler rated to 450 kg. Lifts drums to 1.6 m height for safe tipping, decanting, and material transfer.</p>
+          <div class="product-specs">
+            <div class="spec-item">
+              <span class="spec-label">Capacity</span>
+              <span class="spec-value">450 kg</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Lift Height</span>
+              <span class="spec-value">1.6 metres</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Operation</span>
+              <span class="spec-value">Hydraulic</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Type</span>
+              <span class="spec-value">Manual Dump</span>
+            </div>
+          </div>
+          <a href="#contact" class="product-link">Request Quote →</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Coming Soon strip -->
+    <div style="margin-top:40px;background:var(--grey);border:1px solid var(--border);border-radius:8px;padding:28px 32px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;">
+      <div>
+        <div style="font-family:'Manrope',sans-serif;font-weight:700;color:var(--navy);font-size:16px;margin-bottom:4px;">Coming Soon — Expanding Product Line</div>
+        <div style="font-size:13px;color:var(--text-muted);">Electric Mini Dumpers &nbsp;·&nbsp; Tow Tractors &nbsp;·&nbsp; Utility Vehicles &nbsp;·&nbsp; AGVs &nbsp;·&nbsp; Warehouse Automation</div>
+      </div>
+      <a href="#contact" class="btn-primary" style="font-size:13px;padding:12px 24px;">Register Interest</a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY HASTIN -->
+<section class="why-section">
+  <div class="container">
+    <div class="why-grid">
+      <div>
+        <div class="divider"></div>
+        <div class="section-eyebrow">Why Hastin Machines</div>
+        <h2 class="section-title">Engineering you can<br>measure.</h2>
+        <p class="section-sub">We don't just manufacture carts. We engineer productivity improvements that factories can quantify.</p>
+        <div class="why-features">
+          <div class="why-feature fade-up">
+            <div class="why-feature-num">01</div>
+            <h4>Pure Copper Motors</h4>
+            <p>1800W industrial-grade motors built for all-day continuous operation without thermal throttling.</p>
+          </div>
+          <div class="why-feature fade-up">
+            <div class="why-feature-num">02</div>
+            <h4>Steel Construction</h4>
+            <p>3.0mm+ heavy-gauge steel frames engineered to withstand the demands of industrial environments.</p>
+          </div>
+          <div class="why-feature fade-up">
+            <div class="why-feature-num">03</div>
+            <h4>Local Service Network</h4>
+            <p>Spare parts, trained technicians, and warranty support available across India.</p>
+          </div>
+          <div class="why-feature fade-up">
+            <div class="why-feature-num">04</div>
+            <h4>Customisation Ready</h4>
+            <p>Platform dimensions, fence heights, battery options, and attachments configured to your requirements.</p>
+          </div>
+        </div>
+      </div>
+      <div class="why-visual">
+        <div class="why-visual-bg"></div>
+        <div class="why-visual-content">
+          <div class="why-visual-tagline">Backed by SBEW</div>
+          <h3>Hastin Machines</h3>
+          <p style="color:rgba(255,255,255,0.55);font-size:14px;line-height:1.75;margin-bottom:32px;">An industrial mobility brand by Shree Balaji Engineering Works — precision engineers with over two decades of manufacturing excellence in CNC machining, fabrication, and component manufacturing.</p>
+          <div class="why-metrics">
+            <div class="why-metric">
+              <div class="why-metric-num">20+</div>
+              <div class="why-metric-label">Years of engineering excellence</div>
+            </div>
+            <div class="why-metric">
+              <div class="why-metric-num">100%</div>
+              <div class="why-metric-label">Electric. Zero fuel cost</div>
+            </div>
+            <div class="why-metric">
+              <div class="why-metric-num">3T</div>
+              <div class="why-metric-label">Maximum payload capacity</div>
+            </div>
+            <div class="why-metric">
+              <div class="why-metric-num">6</div>
+              <div class="why-metric-label">Models available now</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section class="industries-section" id="industries">
+  <div class="container">
+    <div class="divider"></div>
+    <div class="section-eyebrow">Industries Served</div>
+    <h2 class="section-title">Built for every industrial environment.</h2>
+    <p class="section-sub">Hastin Machines are deployed across a broad range of sectors where efficient material movement is critical to operations.</p>
+    <div class="industries-grid">
+      <div class="industry-card fade-up">
+        <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M2 20h20M4 20V8l8-6 8 6v12M10 20v-5h4v5"/></svg></div>
+        <div class="industry-name">Manufacturing</div>
+        <div class="industry-desc">Move components between production stations without slowing the line.</div>
+      </div>
+      <div class="industry-card fade-up">
+        <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"/></svg></div>
+        <div class="industry-name">Warehousing</div>
+        <div class="industry-desc">High-cycle pallet and goods movement across large distribution centres.</div>
+      </div>
+      <div class="industry-card fade-up">
+        <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg></div>
+        <div class="industry-name">Construction</div>
+        <div class="industry-desc">Transport materials on site — blocks, tools, concrete, and equipment.</div>
+      </div>
+      <div class="industry-card fade-up">
+        <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M5 17H3a2 2 0 01-2-2V5a2 2 0 012-2h11a2 2 0 012 2v3m-1 11h2a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 002 2h1"/></svg></div>
+        <div class="industry-name">Agriculture</div>
+        <div class="industry-desc">Harvest transport, produce movement, and farm logistics at scale.</div>
+      </div>
+      <div class="industry-card fade-up">
+        <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <div class="industry-name">Hospitals</div>
+        <div class="industry-desc">Silent, zero-emission transport of supplies, linen, and equipment.</div>
+      </div>
+      <div class="industry-card fade-up">
+        <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+        <div class="industry-name">Airports</div>
+        <div class="industry-desc">Baggage, cargo, and ground support movement in terminal environments.</div>
+      </div>
+      <div class="industry-card fade-up">
+        <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z"/></svg></div>
+        <div class="industry-name">Hotels & Campuses</div>
+        <div class="industry-desc">Laundry, housekeeping, and F&B movement across large properties.</div>
+      </div>
+      <div class="industry-card fade-up">
+        <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M8 14v-4m0 0a4 4 0 118 0v4M8 10H4a2 2 0 00-2 2v6a2 2 0 002 2h16a2 2 0 002-2v-6a2 2 0 00-2-2h-4"/></svg></div>
+        <div class="industry-name">Government & Infrastructure</div>
+        <div class="industry-desc">Logistics for public works, utilities, and infrastructure projects.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ROI CALCULATOR -->
+<section class="roi-section">
+  <div class="container">
+    <div class="divider" style="background:var(--green-light);"></div>
+    <div class="section-eyebrow">ROI Calculator</div>
+    <h2 class="section-title">Calculate your savings.</h2>
+    <p class="section-sub">See how Hastin Machines can reduce your annual labour and operational costs.</p>
+    <div class="roi-calculator">
+      <div class="roi-inputs">
+        <div class="roi-input-group">
+          <label class="roi-label">Number of material handlers (daily)</label>
+          <input type="number" class="roi-input" id="workers" value="4" min="1" max="50" oninput="calcROI()">
+          <input type="range" class="roi-slider" min="1" max="20" value="4" oninput="document.getElementById('workers').value=this.value;calcROI()">
+        </div>
+        <div class="roi-input-group">
+          <label class="roi-label">Average daily wage per worker (₹)</label>
+          <input type="number" class="roi-input" id="wage" value="600" min="200" max="3000" oninput="calcROI()">
+          <input type="range" class="roi-slider" min="200" max="3000" step="50" value="600" oninput="document.getElementById('wage').value=this.value;calcROI()">
+        </div>
+        <div class="roi-input-group">
+          <label class="roi-label">Working days per year</label>
+          <input type="number" class="roi-input" id="days" value="300" min="100" max="365" oninput="calcROI()">
+          <input type="range" class="roi-slider" min="100" max="365" value="300" oninput="document.getElementById('days').value=this.value;calcROI()">
+        </div>
+        <div class="roi-input-group">
+          <label class="roi-label">Labour reduction with Hastin (%)</label>
+          <input type="number" class="roi-input" id="reduction" value="60" min="10" max="90" oninput="calcROI()">
+          <input type="range" class="roi-slider" min="10" max="90" value="60" oninput="document.getElementById('reduction').value=this.value;calcROI()">
+        </div>
+      </div>
+      <div class="roi-results">
+        <div class="roi-result-card">
+          <div class="roi-result-label">Current Annual Labour Cost</div>
+          <div class="roi-result-value dark" id="current-cost">₹7,20,000</div>
+        </div>
+        <div class="roi-result-card">
+          <div class="roi-result-label">Estimated Annual Saving</div>
+          <div class="roi-result-value" id="annual-saving">₹4,32,000</div>
+        </div>
+        <div class="roi-result-card">
+          <div class="roi-result-label">Workers Replaced / Redeployed</div>
+          <div class="roi-result-value dark" id="workers-saved">2–3 workers</div>
+        </div>
+        <div style="margin-top:8px;">
+          <a href="#contact" class="btn-primary" style="width:100%;justify-content:center;">Get a Formal ROI Report →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPECS -->
+<section class="specs-section" id="specs">
+  <div class="container">
+    <div class="divider"></div>
+    <div class="section-eyebrow">Technical Specifications</div>
+    <h2 class="section-title">Engineering by the numbers.</h2>
+    <div class="specs-tabs">
+      <div class="specs-tab active" onclick="showSpec('flatbed3')">3-Wheel Flatbed</div>
+      <div class="specs-tab" onclick="showSpec('flatbed4s')">4-Wheel 150cm</div>
+      <div class="specs-tab" onclick="showSpec('flatbed4l')">4-Wheel 200cm</div>
+      <div class="specs-tab" onclick="showSpec('pallet')">Pallet Truck</div>
+      <div class="specs-tab" onclick="showSpec('drum')">Drum Dumper</div>
+    </div>
+
+    <div class="specs-content active" id="spec-flatbed3">
+      <div class="specs-table">
+        <div class="specs-table-title">Three-Wheel Flatbed 8A — Specifications</div>
+        <div class="spec-row"><div>Platform Dimensions</div><div>140 × 75 cm</div></div>
+        <div class="spec-row"><div>Drive Type</div><div>Electric (Battery-powered)</div></div>
+        <div class="spec-row"><div>Motor</div><div>1800W Pure Copper Motor</div></div>
+        <div class="spec-row"><div>Fence Height</div><div>30 cm (Extendable)</div></div>
+        <div class="spec-row"><div>Frame Material</div><div>Heavy-gauge Steel</div></div>
+        <div class="spec-row"><div>Colour</div><div>Industrial Yellow</div></div>
+        <div class="spec-row"><div>Battery</div><div>Sold separately (configurable)</div></div>
+        <div class="spec-row"><div>Configuration</div><div>3-wheel (tri-axle)</div></div>
+        <div class="spec-row"><div>Application</div><div>Narrow aisle, tight radius</div></div>
+        <div class="spec-row"><div>Accessories Kit</div><div>Available (140×75cm kit)</div></div>
+      </div>
+      <div class="specs-diagram">
+        <svg viewBox="0 0 300 200" width="100%" style="max-width:300px;">
+          <rect x="30" y="70" width="240" height="70" rx="4" fill="#F4F6F8" stroke="#12355B" stroke-width="1.5"/>
+          <text x="150" y="110" text-anchor="middle" font-family="Manrope,sans-serif" font-size="11" fill="#12355B" font-weight="700">140 cm</text>
+          <line x1="30" y1="155" x2="270" y2="155" stroke="#4B8F29" stroke-width="1.5" marker-end="url(#arr2)" marker-start="url(#arr2)"/>
+          <text x="150" y="170" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#6B7280">Platform Length</text>
+          <line x1="10" y1="70" x2="10" y2="140" stroke="#4B8F29" stroke-width="1.5"/>
+          <text x="5" y="110" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#6B7280" transform="rotate(-90,5,110)">75 cm</text>
+          <circle cx="55" cy="150" r="18" fill="none" stroke="#2F3437" stroke-width="2"/>
+          <circle cx="245" cy="150" r="18" fill="none" stroke="#2F3437" stroke-width="2"/>
+          <circle cx="150" cy="150" r="14" fill="none" stroke="#2F3437" stroke-width="2"/>
+          <text x="150" y="195" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#6B7280">Side elevation — 3-wheel configuration</text>
+        </svg>
+        <div class="specs-diagram-label">Dimension drawing — Three-Wheel Flatbed 8A</div>
+      </div>
+    </div>
+
+    <div class="specs-content" id="spec-flatbed4s">
+      <div class="specs-table">
+        <div class="specs-table-title">Four-Wheel Flatbed 08# — Specifications</div>
+        <div class="spec-row"><div>Platform Dimensions</div><div>150 × 80 cm</div></div>
+        <div class="spec-row"><div>Drive Type</div><div>Electric (Battery-powered)</div></div>
+        <div class="spec-row"><div>Motor</div><div>1800W Pure Copper Motor</div></div>
+        <div class="spec-row"><div>Fence Height</div><div>30 cm</div></div>
+        <div class="spec-row"><div>Frame Material</div><div>Heavy-gauge Steel</div></div>
+        <div class="spec-row"><div>Colour</div><div>Industrial Yellow</div></div>
+        <div class="spec-row"><div>Battery</div><div>Sold separately (configurable)</div></div>
+        <div class="spec-row"><div>Configuration</div><div>4-wheel (quad-axle)</div></div>
+        <div class="spec-row"><div>Application</div><div>Standard factory floor</div></div>
+        <div class="spec-row"><div>Accessories Kit</div><div>Available (150×80cm kit)</div></div>
+      </div>
+      <div class="specs-diagram">
+        <svg viewBox="0 0 300 200" width="100%" style="max-width:300px;">
+          <rect x="20" y="65" width="260" height="75" rx="4" fill="#F4F6F8" stroke="#12355B" stroke-width="1.5"/>
+          <text x="150" y="107" text-anchor="middle" font-family="Manrope,sans-serif" font-size="11" fill="#12355B" font-weight="700">150 cm</text>
+          <line x1="20" y1="155" x2="280" y2="155" stroke="#4B8F29" stroke-width="1.5"/>
+          <text x="150" y="170" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#6B7280">Platform Length</text>
+          <circle cx="45" cy="148" r="16" fill="none" stroke="#2F3437" stroke-width="2"/>
+          <circle cx="255" cy="148" r="16" fill="none" stroke="#2F3437" stroke-width="2"/>
+          <circle cx="45" cy="80" r="10" fill="none" stroke="#2F3437" stroke-width="2"/>
+          <circle cx="255" cy="80" r="10" fill="none" stroke="#2F3437" stroke-width="2"/>
+          <text x="150" y="195" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#6B7280">Side elevation — 4-wheel configuration</text>
+        </svg>
+        <div class="specs-diagram-label">Dimension drawing — Four-Wheel Flatbed 08#</div>
+      </div>
+    </div>
+
+    <div class="specs-content" id="spec-flatbed4l">
+      <div class="specs-table">
+        <div class="specs-table-title">Four-Wheel Flatbed 25# — Specifications</div>
+        <div class="spec-row"><div>Platform Dimensions</div><div>200 × 100 cm</div></div>
+        <div class="spec-row"><div>Drive Type</div><div>Electric (Battery-powered)</div></div>
+        <div class="spec-row"><div>Motor</div><div>1800W Pure Copper Motor</div></div>
+        <div class="spec-row"><div>Fence Height</div><div>30 cm</div></div>
+        <div class="spec-row"><div>Frame Material</div><div>Heavy-gauge Steel</div></div>
+        <div class="spec-row"><div>Colour</div><div>Industrial Yellow</div></div>
+        <div class="spec-row"><div>Battery</div><div>Sold separately (configurable)</div></div>
+        <div class="spec-row"><div>Configuration</div><div>4-wheel, large format</div></div>
+        <div class="spec-row"><div>Application</div><div>Bulk movement, long loads</div></div>
+        <div class="spec-row"><div>Accessories Kit</div><div>Available (200×100cm kit)</div></div>
+      </div>
+      <div class="specs-diagram">
+        <svg viewBox="0 0 300 200" width="100%" style="max-width:300px;">
+          <rect x="10" y="65" width="280" height="80" rx="4" fill="#F4F6F8" stroke="#12355B" stroke-width="1.5"/>
+          <text x="150" y="110" text-anchor="middle" font-family="Manrope,sans-serif" font-size="11" fill="#12355B" font-weight="700">200 cm</text>
+          <text x="150" y="125" text-anchor="middle" font-family="Manrope,sans-serif" font-size="10" fill="#6B7280">width: 100 cm</text>
+          <circle cx="35" cy="152" r="16" fill="none" stroke="#2F3437" stroke-width="2"/>
+          <circle cx="265" cy="152" r="16" fill="none" stroke="#2F3437" stroke-width="2"/>
+          <circle cx="35" cy="78" r="10" fill="none" stroke="#2F3437" stroke-width="2"/>
+          <circle cx="265" cy="78" r="10" fill="none" stroke="#2F3437" stroke-width="2"/>
+          <text x="150" y="195" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#6B7280">Largest flatbed — 4-wheel, heavy format</text>
+        </svg>
+        <div class="specs-diagram-label">Dimension drawing — Four-Wheel Flatbed 25#</div>
+      </div>
+    </div>
+
+    <div class="specs-content" id="spec-pallet">
+      <div class="specs-table">
+        <div class="specs-table-title">Electric Pallet Truck SK Classic — Specifications</div>
+        <div class="spec-row"><div>Rated Capacity</div><div>3,000 kg (3 Tonne)</div></div>
+        <div class="spec-row"><div>Motor</div><div>1500W Pure Copper Motor</div></div>
+        <div class="spec-row"><div>Operation</div><div>Fully Automatic</div></div>
+        <div class="spec-row"><div>Model</div><div>SK Classic</div></div>
+        <div class="spec-row"><div>Colour</div><div>Industrial Blue</div></div>
+        <div class="spec-row"><div>Battery</div><div>Sold separately (configurable)</div></div>
+        <div class="spec-row"><div>Drive</div><div>Electric traction drive</div></div>
+        <div class="spec-row"><div>Application</div><div>Warehouse, cold store, dispatch</div></div>
+        <div class="spec-row"><div>Control</div><div>Handle-mounted controls</div></div>
+        <div class="spec-row"><div>Accessories Kit</div><div>Available on request</div></div>
+      </div>
+      <div class="specs-diagram">
+        <svg viewBox="0 0 300 200" width="100%" style="max-width:300px;">
+          <rect x="60" y="100" width="180" height="30" rx="3" fill="#F4F6F8" stroke="#1F4E79" stroke-width="1.5"/>
+          <rect x="80" y="130" width="140" height="10" rx="2" fill="#E9E5DA" stroke="#1F4E79" stroke-width="1"/>
+          <rect x="80" y="140" width="6" height="35" rx="2" fill="#1F4E79"/>
+          <rect x="214" y="140" width="6" height="35" rx="2" fill="#1F4E79"/>
+          <rect x="70" y="55" width="16" height="48" rx="3" fill="#1F4E79"/>
+          <rect x="60" y="50" width="180" height="8" rx="2" fill="#4B8F29"/>
+          <text x="150" y="92" text-anchor="middle" font-family="Manrope,sans-serif" font-size="10" fill="#12355B" font-weight="700">3 Tonne Capacity</text>
+          <text x="150" y="190" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#6B7280">SK Classic Electric Pallet Truck</text>
+        </svg>
+        <div class="specs-diagram-label">SK Classic — Electric Pallet Truck</div>
+      </div>
+    </div>
+
+    <div class="specs-content" id="spec-drum">
+      <div class="specs-table">
+        <div class="specs-table-title">Oil Drum Dumping Machine — Specifications</div>
+        <div class="spec-row"><div>Rated Load Capacity</div><div>450 kg</div></div>
+        <div class="spec-row"><div>Lifting Height</div><div>1.6 metres</div></div>
+        <div class="spec-row"><div>Operation</div><div>Manual Hydraulic</div></div>
+        <div class="spec-row"><div>Type</div><div>Oil Drum Dumping Machine</div></div>
+        <div class="spec-row"><div>Colour</div><div>Industrial Red</div></div>
+        <div class="spec-row"><div>Application</div><div>Drum tipping, decanting</div></div>
+        <div class="spec-row"><div>Power</div><div>No electrical supply required</div></div>
+        <div class="spec-row"><div>Hydraulic System</div><div>Manual pump operated</div></div>
+        <div class="spec-row"><div>Spare Parts</div><div>Hydraulic cylinder, drum hook</div></div>
+        <div class="spec-row"><div>Reducer</div><div>Reducer assembly available</div></div>
+      </div>
+      <div class="specs-diagram">
+        <svg viewBox="0 0 300 200" width="100%" style="max-width:300px;">
+          <rect x="100" y="30" width="50" height="80" rx="4" fill="#F4F6F8" stroke="#C0392B" stroke-width="1.5"/>
+          <rect x="90" y="108" width="70" height="12" rx="2" fill="#E9E5DA" stroke="#C0392B" stroke-width="1"/>
+          <rect x="110" y="118" width="30" height="50" rx="2" fill="#C0392B"/>
+          <path d="M100 50 Q80 30 90 20 Q95 15 100 28" fill="none" stroke="#1F4E79" stroke-width="3" stroke-linecap="round"/>
+          <line x1="60" y1="170" x2="240" y2="170" stroke="#2F3437" stroke-width="2"/>
+          <line x1="140" y1="170" x2="140" y2="30" stroke="#4B8F29" stroke-width="1" stroke-dasharray="4,3"/>
+          <text x="155" y="100" font-family="Inter,sans-serif" font-size="9" fill="#6B7280">1.6m lift</text>
+          <text x="150" y="190" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#6B7280">Oil Drum Dumping Machine — 450kg rated</text>
+        </svg>
+        <div class="specs-diagram-label">Drum Dumping Machine — side elevation</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery-section">
+  <div class="container">
+    <div class="divider"></div>
+    <div class="section-eyebrow">Gallery</div>
+    <h2 class="section-title">See it in action.</h2>
+    <p class="section-sub" style="margin-bottom:0;">Product photography, factory shots, and real-world installations coming soon.</p>
+  </div>
+  <div class="gallery-grid" style="max-width:1200px;margin:48px auto 0;">
+    <div class="gallery-cell large">
+      <div class="gallery-placeholder">
+        <svg viewBox="0 0 24 24"><path d="M15 10l4.553-2.069A1 1 0 0121 8.87v6.26a1 1 0 01-1.447.894L15 14M3 8a2 2 0 012-2h10a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"/></svg>
+        <span>Brand Film — Coming Soon</span>
+      </div>
+    </div>
+    <div class="gallery-cell">
+      <div class="gallery-placeholder">
+        <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>
+        <span>Factory Floor</span>
+      </div>
+    </div>
+    <div class="gallery-cell">
+      <div class="gallery-placeholder">
+        <svg viewBox="0 0 24 24"><path d="M20 7H4a2 2 0 00-2 2v6a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z"/></svg>
+        <span>Warehouse Operation</span>
+      </div>
+    </div>
+    <div class="gallery-cell">
+      <div class="gallery-placeholder">
+        <svg viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+        <span>Assembly</span>
+      </div>
+    </div>
+    <div class="gallery-cell">
+      <div class="gallery-placeholder">
+        <svg viewBox="0 0 24 24"><path d="M9 17H7A5 5 0 017 7h2M15 7h2a5 5 0 010 10h-2M8 12h8"/></svg>
+        <span>Product Close-up</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-section" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-text fade-up">
+        <div class="divider"></div>
+        <div class="section-eyebrow">About Hastin Machines</div>
+        <h2 class="section-title">20 years of engineering behind every machine.</h2>
+        <p>Hastin Machines is the industrial mobility brand of Shree Balaji Engineering Works — a precision engineering company with over two decades of manufacturing experience serving automotive, oil & gas, agricultural, and construction industries.</p>
+        <p>We launched Hastin Machines because we understood the problem from the factory floor up. Our engineers have spent years building precision components. Now we're applying that same engineering discipline to solve India's material movement challenge.</p>
+        <p>Every Hastin machine is built on the same foundation: heavy-gauge steel, copper-wound motors, and engineering processes refined over 20 years of manufacturing for global standards.</p>
+        <div class="about-badges">
+          <span class="badge">Precision Engineering</span>
+          <span class="badge">CNC Machined</span>
+          <span class="badge">Made in India</span>
+          <span class="badge">Factory Direct</span>
+          <span class="badge">Warranty Covered</span>
+        </div>
+        <div style="margin-top:32px;">
+          <a href="https://sbew.in" target="_blank" class="product-link" style="font-size:12px;">Visit SBEW — Parent Company →</a>
+        </div>
+      </div>
+      <div class="about-milestones fade-up">
+        <div class="milestone">
+          <div class="milestone-num">20<span>+</span></div>
+          <div class="milestone-label">Years of engineering and manufacturing excellence</div>
+        </div>
+        <div class="milestone">
+          <div class="milestone-num">6<span>+</span></div>
+          <div class="milestone-label">Industrial mobility models at launch</div>
+        </div>
+        <div class="milestone">
+          <div class="milestone-num">1800<span>W</span></div>
+          <div class="milestone-label">Pure copper motors across all electric models</div>
+        </div>
+        <div class="milestone">
+          <div class="milestone-num">3<span>T</span></div>
+          <div class="milestone-label">Maximum payload capacity — electric pallet truck</div>
+        </div>
+        <div class="milestone" style="grid-column:span 2;">
+          <div style="font-family:'Manrope',sans-serif;font-size:15px;font-weight:700;color:var(--navy);margin-bottom:8px;">Hoshiarpur, Punjab, India</div>
+          <div class="milestone-label">Village Singriwala, Jalandhar Road, Hoshiarpur — 146001, Punjab. INDIA.<br>+91 9569160009 &nbsp;·&nbsp; info@sbew.in</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<div class="cta-banner">
+  <div class="container" style="text-align:center;">
+    <h2>Ready to improve your material movement?</h2>
+    <p>Talk to our team. We'll assess your facility, recommend the right machine, and deliver a formal ROI proposal at no cost.</p>
+    <div class="cta-banner-actions">
+      <a href="#contact" class="btn-white">Book a Free Assessment →</a>
+      <a href="https://wa.me/919569160009" class="btn-outline-white" target="_blank">Chat on WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info fade-up">
+        <div class="divider"></div>
+        <div class="section-eyebrow">Contact & RFQ</div>
+        <h3 class="section-title" style="font-size:30px;">Let's discuss your requirements.</h3>
+        <p>Whether you need one machine or a full fleet solution, our team will respond within 24 hours with a proposal tailored to your facility.</p>
+        <div class="contact-detail">
+          <div class="contact-detail-icon"><svg viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg></div>
+          <div class="contact-detail-text">
+            <strong>Phone / WhatsApp</strong>
+            <span>+91 9569160009</span>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-detail-icon"><svg viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg></div>
+          <div class="contact-detail-text">
+            <strong>Email</strong>
+            <span>info@sbew.in</span>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-detail-icon"><svg viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div>
+          <div class="contact-detail-text">
+            <strong>Address</strong>
+            <span>Village Singriwala, Jalandhar Road, Hoshiarpur — 146001, Punjab, India</span>
+          </div>
+        </div>
+        <div style="margin-top:32px;padding:20px;background:var(--navy);border-radius:8px;color:white;">
+          <div style="font-size:12px;font-weight:700;color:var(--green-light);text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;">Response Time</div>
+          <div style="font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;color:white;margin-bottom:4px;">Within 24 Hours</div>
+          <div style="font-size:13px;color:rgba(255,255,255,0.5);">Monday to Saturday, 9 AM – 6 PM IST</div>
+        </div>
+      </div>
+      <div class="contact-form fade-up">
+        <div style="font-family:'Manrope',sans-serif;font-weight:700;font-size:20px;color:var(--navy);margin-bottom:28px;">Request a Quote</div>
+        <form onsubmit="submitForm(event)">
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Full Name *</label>
+              <input type="text" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <label>Company Name</label>
+              <input type="text" placeholder="Your company">
+            </div>
+            <div class="form-group">
+              <label>Phone / WhatsApp *</label>
+              <input type="tel" placeholder="+91 XXXXX XXXXX" required>
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" placeholder="you@company.com">
+            </div>
+            <div class="form-group">
+              <label>Industry</label>
+              <select>
+                <option value="">Select industry</option>
+                <option>Manufacturing</option>
+                <option>Warehousing & Logistics</option>
+                <option>Construction</option>
+                <option>Agriculture</option>
+                <option>Hospital / Healthcare</option>
+                <option>Hotel / Hospitality</option>
+                <option>Airport</option>
+                <option>Government / Infrastructure</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Product of Interest</label>
+              <select>
+                <option value="">Select product</option>
+                <option>Three-Wheel Flatbed 8A</option>
+                <option>Four-Wheel Flatbed 08# (150cm)</option>
+                <option>Four-Wheel Flatbed 25# (200cm)</option>
+                <option>Standing Bucket Truck 26#</option>
+                <option>Electric Pallet Truck SK Classic</option>
+                <option>Oil Drum Dumping Machine</option>
+                <option>Multiple / Custom Requirement</option>
+              </select>
+            </div>
+            <div class="form-group full">
+              <label>Your Requirement</label>
+              <textarea placeholder="Describe your material handling requirement — facility type, load sizes, distances, number of units needed..."></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn-primary" style="width:100%;justify-content:center;font-size:15px;padding:18px;">
+            Send Request →
+          </button>
+          <p style="font-size:12px;color:var(--text-muted);text-align:center;margin-top:16px;">We'll respond within 24 hours with a tailored proposal.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div>
+      <div class="footer-brand-name">HASTIN <span>MACHINES</span></div>
+      <div class="footer-tagline">Powering India's Next Move.</div>
+      <div class="footer-parent">An industrial mobility brand by<br><strong>Shree Balaji Engineering Works</strong><br>20+ years of engineering excellence.</div>
+      <div class="footer-socials">
+        <div class="social-btn" title="WhatsApp">
+          <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        </div>
+        <div class="social-btn" title="Instagram">
+          <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </div>
+        <div class="social-btn" title="LinkedIn">
+          <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </div>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h5>Products</h5>
+      <ul class="footer-links">
+        <li><a href="#products">3-Wheel Flatbed Cart</a></li>
+        <li><a href="#products">4-Wheel Flatbed 150cm</a></li>
+        <li><a href="#products">4-Wheel Flatbed 200cm</a></li>
+        <li><a href="#products">Standing Bucket Truck</a></li>
+        <li><a href="#products">Electric Pallet Truck</a></li>
+        <li><a href="#products">Drum Dumping Machine</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Industries</h5>
+      <ul class="footer-links">
+        <li><a href="#industries">Manufacturing</a></li>
+        <li><a href="#industries">Warehousing</a></li>
+        <li><a href="#industries">Construction</a></li>
+        <li><a href="#industries">Agriculture</a></li>
+        <li><a href="#industries">Hospitals</a></li>
+        <li><a href="#industries">Hotels & Campuses</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul class="footer-links">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="https://sbew.in" target="_blank">SBEW — Parent Company</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact">Request Quote</a></li>
+        <li><a href="https://wa.me/919569160009" target="_blank">WhatsApp Us</a></li>
+        <li><a href="#contact">Become a Dealer</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-legal">© 2025 Hastin Machines. A brand of Shree Balaji Engineering Works. All rights reserved.</div>
+    <div class="footer-legal" style="color:rgba(255,255,255,0.2);">hastinmachines.com &nbsp;·&nbsp; Hoshiarpur, Punjab, India</div>
+  </div>
+</footer>
+
+<script>
+  // ROI Calculator
+  function calcROI() {
+    const workers = parseInt(document.getElementById('workers').value) || 4;
+    const wage = parseInt(document.getElementById('wage').value) || 600;
+    const days = parseInt(document.getElementById('days').value) || 300;
+    const reduction = parseInt(document.getElementById('reduction').value) || 60;
+
+    const current = workers * wage * days;
+    const saving = Math.round(current * (reduction / 100));
+    const replaced = Math.round(workers * reduction / 100);
+
+    document.getElementById('current-cost').textContent = '₹' + current.toLocaleString('en-IN');
+    document.getElementById('annual-saving').textContent = '₹' + saving.toLocaleString('en-IN');
+    document.getElementById('workers-saved').textContent = replaced + (replaced === 1 ? ' worker' : ' workers');
+  }
+
+  // Spec tabs
+  function showSpec(id) {
+    document.querySelectorAll('.specs-content').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.specs-tab').forEach(el => el.classList.remove('active'));
+    document.getElementById('spec-' + id).classList.add('active');
+    event.target.classList.add('active');
+  }
+
+  // Scroll animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('visible'), i * 80);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+  // Mobile nav
+  function toggleMenu() {
+    const links = document.querySelector('.nav-links');
+    if (links.style.display === 'flex') {
+      links.style.display = 'none';
+    } else {
+      links.style.cssText = 'display:flex;flex-direction:column;position:fixed;top:72px;left:0;right:0;background:#12355B;padding:20px;gap:16px;z-index:999;';
+    }
+  }
+
+  // Form submit
+  function submitForm(e) {
+    e.preventDefault();
+    const btn = e.target.querySelector('button[type=submit]');
+    btn.textContent = '✓ Request Sent — We will contact you within 24 hours';
+    btn.style.background = '#4B8F29';
+    btn.disabled = true;
+  }
+
+  // Init calculator
+  calcROI();
+</script>
+
+</body>
+</html>
